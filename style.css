@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(145, 173, 97);
+    width: 100%;
+       
+}
+header img{
+    width: 20;
+    height: 30;
+}
+a{
+    text-decoration: none;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    }
+
+header ul li{
+    margin: 90px;
+}
+img{
+    width: 450px;
+}
+
+h1{
+    font-size: 34px;
+    color: darkgreen;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h2{
+    font-size: 30;
+    color: rgb(126, 117, 117);
+}
+p{
+    font-size: 24;
+    color: darkseagreen;
+}
+
+.main{
+    display: flex;
+    flex-direction: row ;
+    width: 100%;
+    background-color: rgb(89, 95, 79);
+}
+
+.box{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+}
+.box img{
+    shape;
+}
+.Presentación{
+    width: 80%;
+    font-size: 35px;
+        // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 800
+
+.open-sans-<uniquifier> {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+}
+#Nosotros iframe{
+    padding: 10px;
+    margin: 10px;
+}
